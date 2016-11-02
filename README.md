@@ -1,3 +1,7 @@
-# My Awesome Book
+# APM接口文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+* **本接口编写的目的：**
+
+1. 为了使前端和后端进行协同开发。
+2. 为之后的二次开发以及维护提供参考。
+
