@@ -47,11 +47,11 @@
 
 查询表：app\_kpi\_
 
-查询字段\(交易量\)：numreq
+查询字段\(交易量,成功量,响应时间,响应量\)：numreq,successfultran,pagetranstime,numreply
 
-计算方法：SUM\(numreq\)
+计算方法\(交易量,成功率,响应时间,响应率\)：SUM\(numreq\),SUM(successfultran)/SUM\(numreq\),AVG(pagetranstime),SUM(numreply)/SUM(numreq)
 
-说明：根据时间精度聚合统计相应数值。
+说明：根据时间聚合统计相应数值。
 
 ---
 
