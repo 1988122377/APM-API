@@ -59,52 +59,41 @@
 
 > ```js
 
-> http://ip:8080/APM/apm/reqnum-line.html?starttime=1478048400&endtime=1478052000&precision=1
+> http://ip:8080/APM/apm/app-performance-count.html?starttime=1478048400&endtime=1478052000
 
 > ```
 
-
-
 **响应示例：**
 
-
-
 > ```js
-
 > {
-
-> "status":0,
-
-> "msg":"成功",
-
-> "data":{
-
-> "unit":"笔",
-
-> "list":[
-
-> {
-
-> "utc":"new Date(2016,11,01,09,01)",
-
-> "num":10
-
-> },
-
-> {
-
-> "utc":"new Date(2016,11,01,09,02)",
-
-> "num":34
-
+>     "status":0,
+>     "msg":"成功",
+>     "data":{
+>         "list":[
+>             {
+>                 "name":"交易量",
+>                 "num":49235,
+>                 "unit":"笔"
+>             },
+>             {
+>                 "name":"成功率",
+>                 "num":98.55,
+>                 "unit":"%"
+>             },
+>             {
+>                 "name":"响应时间",
+>                 "num":451.57,
+>                 "unit":"ms"
+>             },
+>             {
+>                 "name":"响应率",
+>                 "num":82.28,
+>                 "unit":"%"
+>             }
+>         ]
+>     }
 > }
-
-> ]
-
-> }
-
-> }
-
 > ```
 
 
