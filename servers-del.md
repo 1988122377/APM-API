@@ -3,7 +3,7 @@
 请求类型：HTTP
 
 
-接口地址：servesr-add.html
+接口地址：servers-add.html
 
 请求方式：post
 
